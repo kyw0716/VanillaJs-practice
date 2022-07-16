@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.mainContainer{
+    width: 1200px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+.imgConcat{
+    width: fit-content;
+    height: 260px;
+    display: flex;
+}
+.img1{
+    min-width: 1200px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.nextButton{
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    height: 260px;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 26px;
+}
+.prevButton{
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    height: 260px;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 26px;
+}
